@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@1,300&family=Inter:wght@200&display=swap" rel="stylesheet">
+    <title>Body mass calculator</title>
+</head>
+<body>
+    <section class="intro">
+        <div class="backgorund">
+            <h1>Body Mass index Calculator</h1>
+           <p>Body Mass
+            Index Calculator
+            Better understand your weight in relation to your height using
+            our body mass index (BM) calculator. While BMI is not the
+            sole determinant of a healthy weight, it offers a valuable
+            starting point to evaluate your overall health and well-being.</p>
+
+
+            <div class="calculator">
+                <form>
+    
+                    <div class="labels">
+                        <span><label> </label>
+                            <input type="radio" name="units" value="metric" required>
+                            Metric
+                         </span>
+                         
+    
+                         <span>   <label>
+                            <input type="radio" name="units" value="imperial" required>
+                            Imperial
+                          </label></span>
+                      </div>
+                     <div class="text">
+                        <label>
+                            Height (cm):
+                        </label>
+                            <input type="number" name="height" required>
+                        
+                          <br>
+                          <label>
+                            Weight (kg):
+                        </label> 
+                            <input type="number" name="weight" required>
+                       
+                     </div>
+                    <br>
+                       <div class="results">
+                        <h4>Your BMI is ..</h4>
+                        <h1 id="number">23.4</h1>
+                        <p>Your BMI suggests your a healthy weight </p>
+    
+                       </div>
+                    
+                  </form>
+            </div>
+              man eating 
+
+              
+            <div class="bmi-mean">
+                <div class="mean-cildern">
+                  <img class="man-image" src="./assests/image-man-eating.webp" alt="your-image-alt-text">
+               
+                </div>
+                <div class="mean-cildern mean-text">
+                    <h2>What your BMI result means</h2>
+                    <p>A BMI range of 18.5 to 24.9 is considered a 'healthy weight.' Maintaining a 
+                        healthy weight may lower your chances of experiencing health issues later on, 
+                        such as obesity and type 2 diabetes. Aim for a nutritious diet with reduced 
+                        fat and sugar content, incorporating ample fruits and vegetables. Additionally, 
+                        strive for regular physical activity, ideally about 30 minutes daily for 
+                        five days a week.</p>
+                 
+                </div>
+
+            </div> 
+
+            <!-- Routin  -->
+
+            <div class="flex-container">
+                <div class="flex-item">
+                  <img src="./assests/icon-eating.svg" alt="your-image-alt-text">
+                  <h3>Healthy eating</h3>
+                  <p>
+                    Healthy eating promotes weight control, disease prevention, better
+                    digestion, immunity, mental clarity, and mood.
+                  </p>
+                </div>
+                <div class="flex-item">
+                    <img src="./assests/icon-exercise.svg" alt="exercise">
+                    <h2>Regular exercise</h2>
+                    <p>
+                        Exercise improves fitness, aids weight control, elevates mood, and
+                        reduces disease risk, fostering wellness and longevity.
+                      </p>
+                 
+                </div>
+
+                <div class="flex-item">
+                    <img src="./assests/icon-sleep.svg" alt="sleep">
+                    <h2>Adequate sleep</h2>
+                    <p>
+                        Sleep enhances mental clarity, emotional stability, and physical
+                        wellness, promoting overall restoration and rejuvenation.
+                      </p>                 
+                
+              </div>
+
+              <!-- end of routin -->
+        </div>
+      
+    </section>
+    
+</body>
+</html>
